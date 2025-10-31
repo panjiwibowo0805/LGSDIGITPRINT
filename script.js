@@ -71,3 +71,31 @@ function loadPage(page) {
 window.onload = () => {
     loadPage("home");
 };
+
+function toggleMenu() {
+  alert("Menu diklik — tambahkan navigasi di sini jika diperlukan.");
+}
+
+// Efek fade-in saat scroll
+const fadeElements = document.querySelectorAll('.fade');
+const observerOptions = { threshold: 0.2, rootMargin: '0px 0px -50px 0px' };
+
+const fadeObserver = new IntersectionObserver(function(entries, observer) {
+  entries.forEach(entry => {
+    if (!entry.isIntersecting) return;
+    entry.target.classList.add('show');
+    observer.unobserve(entry.target);
+  });
+}, observerOptions);
+
+fadeElements.forEach(el => fadeObserver.observe(el));
+
+// Tombol WhatsApp muncul setelah scroll
+const waButton = document.querySelector('.wa-float');
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 150) {
+    waButton.classList.add('show-wa');
+  } else {
+    waButton.classList.remove('show-wa');
+  }
+});
