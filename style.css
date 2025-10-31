@@ -1,0 +1,296 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    overflow-x: hidden;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+.logo {
+    height: 50px;
+}
+
+.menu-btn {
+    font-size: 28px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* Glow Effect */
+.glow {
+    transition: 0.3s;
+}
+.glow:hover {
+    color: #00ff88;
+    text-shadow: 0 0 10px #00ff88, 0 0 20px #00ff88;
+}
+
+/* Fade Animation */
+.fade-in {
+    animation: fadeIn 0.6s ease-in-out;
+}
+.fade-out {
+    animation: fadeOut 0.4s ease-in-out forwards;
+}
+@keyframes fadeIn {
+    from {opacity: 0; transform: translateY(15px);}
+    to {opacity: 1; transform: translateY(0);}
+}
+@keyframes fadeOut {
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
+
+/* Content styling */
+.about, .layanan, .jersey {
+    text-align: center;
+    padding: 40px;
+}
+
+.about h1 {
+    font-size: 48px;
+    margin-top: 50px;
+}
+.about h2 {
+    margin-top: 30px;
+    font-size: 30px;
+}
+.about p {
+    width: 70%;
+    margin: 10px auto;
+    line-height: 1.6;
+}
+
+.printer img {
+    width: 70%;
+    margin-top: 30px;
+}
+
+/* Layanan List */
+.layanan h2 {
+    font-size: 36px;
+    border-bottom: 2px solid #fff;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.layanan ul {
+    list-style: none;
+    padding: 0;
+}
+.layanan li {
+    margin: 20px 0;
+}
+.layanan button {
+    background: none;
+    color: white;
+    border: 2px solid #00ff88;
+    border-radius: 10px;
+    padding: 10px 25px;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.layanan button:hover {
+    background: #00ff88;
+    color: black;
+    box-shadow: 0 0 15px #00ff88;
+}
+
+/* Jersey Page */
+.jersey img {
+    width: 80%;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,255,136,0.4);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin: 40px 0;
+}
+footer img {
+    width: 30px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+/* Content styling */
+.about, .layanan, .Mmt {
+    text-align: center;
+    padding: 40px;
+}
+
+.about h1 {
+    font-size: 48px;
+    margin-top: 50px;
+}
+.about h2 {
+    margin-top: 30px;
+    font-size: 30px;
+}
+.about p {
+    width: 70%;
+    margin: 10px auto;
+    line-height: 1.6;
+}
+
+.printer img {
+    width: 70%;
+    margin-top: 30px;
+}
+
+/* Layanan List */
+.layanan h2 {
+    font-size: 36px;
+    border-bottom: 2px solid #fff;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.layanan ul {
+    list-style: none;
+    padding: 0;
+}
+.layanan li {
+    margin: 20px 0;
+}
+.layanan button {
+    background: none;
+    color: white;
+    border: 2px solid #00ff88;
+    border-radius: 10px;
+    padding: 10px 25px;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.layanan button:hover {
+    background: #00ff88;
+    color: black;
+    box-shadow: 0 0 15px #00ff88;
+}
+
+/* Mmt Page */
+.Mmt img {
+    width: 80%;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,255,136,0.4);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin: 40px 0;
+}
+footer img {
+    width: 30px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+/* Content styling */
+.about, .layanan, .Sticker {
+    text-align: center;
+    padding: 40px;
+}
+
+.about h1 {
+    font-size: 48px;
+    margin-top: 50px;
+}
+.about h2 {
+    margin-top: 30px;
+    font-size: 30px;
+}
+.about p {
+    width: 70%;
+    margin: 10px auto;
+    line-height: 1.6;
+}
+
+.printer img {
+    width: 70%;
+    margin-top: 30px;
+}
+
+/* Layanan List */
+.layanan h2 {
+    font-size: 36px;
+    border-bottom: 2px solid #fff;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.layanan ul {
+    list-style: none;
+    padding: 0;
+}
+.layanan li {
+    margin: 20px 0;
+}
+.layanan button {
+    background: none;
+    color: white;
+    border: 2px solid #00ff88;
+    border-radius: 10px;
+    padding: 10px 25px;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.layanan button:hover {
+    background: #00ff88;
+    color: black;
+    box-shadow: 0 0 15px #00ff88;
+}
+
+/* Sticker Page */
+.Sticker img {
+    width: 80%;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,255,136,0.4);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin: 40px 0;
+}
+footer img {
+    width: 30px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+/* Kaos Page */
+.Kaos img {
+    width: 80%;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,255,136,0.4);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin: 40px 0;
+}
+footer img {
+    width: 30px;
+    margin: 5px;
+    cursor: pointer;
+}
